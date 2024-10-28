@@ -7,6 +7,8 @@ This repository contains script files for the course about Python programming fu
 
 ## Table of Content
 
+Module 01:
+   Lesson 01:
 
 
 
