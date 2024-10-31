@@ -2,7 +2,7 @@
 # =======================================================================
 # Author: Dr. Saad Laouadi
 # Course: Python-101
-# Lesson: escape_characters_01
+# Lesson: Escape Characters
 #
 # Description: Demonstrates escape characters in Python, including
 #              newlines, tabs, and backslashes.

@@ -2,7 +2,7 @@
 # =======================================================================
 # Author: Dr. Saad Laouadi
 # Course: Python-101
-# Lesson: string_methods_01
+# Lesson: Essential String Methods
 #
 # Description: Demonstrates common string manipulation methods in Python,
 #              including upper(), lower(), strip(), replace(), split(),
