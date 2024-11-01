@@ -2,7 +2,7 @@
 # =======================================================================
 # Author: Dr. Saad Laouadi
 # Course: Python-201
-# Lesson: function_arguments_advanced_05
+# Lesson: Function Arguments Advanced
 #
 # Description: Demonstrates advanced function arguments in Python, including
 #              positional-only, arbitrary, keyword-only, and combinations of
