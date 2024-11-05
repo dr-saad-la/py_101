@@ -79,6 +79,54 @@ def string_continuation_examples():
 	                       f"multi-line strings easily.")
 	print(f"String using multi-line f-strings: {long_string_fstring}")
 
+# Function demonstrating `abs()` usage
+def absolute_value_example():
+    number = -10
+    absolute_value = abs(number)
+    print("\nUsing `abs()` - Absolute value of -10:", absolute_value)  # Output: 10
+
+
+# Function demonstrating `round()` usage
+def rounding_example():
+    value = 3.14159
+    rounded_value = round(value, 2)
+    print("\nUsing `round()` - Rounded value of 3.14159 to 2 decimal places:", rounded_value)  # Output: 3.14
+
+
+# Function demonstrating `isinstance()` usage
+def instance_check_example():
+    number = 5
+    is_integer = isinstance(number, int)
+    print("\nUsing `isinstance()` - Is 5 an integer?", is_integer)  # Output: True
+
+
+# Function demonstrating `any()` with mixed data types
+def any_with_mixed_data_example():
+    items = [0, "", None, True, False]
+    has_true_value = any(items)
+    print("\nUsing `any()` with mixed data types - Any truthy value?", has_true_value)  # Output: True
+
+
+# Function demonstrating `all()` with strings
+def all_with_strings_example():
+    words = ["apple", "banana", "cherry"]
+    all_non_empty = all(words)
+    print("\nUsing `all()` with strings - All non-empty strings?", all_non_empty)  # Output: True
+
+
+# Function demonstrating `max()` with key argument
+def max_with_key_example():
+    fruits = ["apple", "banana", "cherry", "blueberry"]
+    longest_fruit = max(fruits, key=len)
+    print("\nUsing `max()` with `key` - Longest fruit name:", longest_fruit)  # Output: blueberry
+
+
+# Function demonstrating `sorted()` with custom sorting using key argument
+def custom_sorting_example():
+    fruits = ["apple", "banana", "cherry", "blueberry"]
+    sorted_by_length = sorted(fruits, key=len)
+    print("\nUsing `sorted()` with `key` - Fruits sorted by length:", sorted_by_length)  # Output: ['apple', 'banana', 'cherry', 'blueberry']
+
 
 if __name__ == "__main__":
 	main()
