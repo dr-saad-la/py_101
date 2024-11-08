@@ -30,6 +30,8 @@ def create_array_from_list():
     arr_from_random_list = np.array(generate_random_list(21, 6))
     print("Array from list:", array_from_list)
     print(f"Array from a random list: {arr_from_random_list}")
+    print(f"The data type: {type(array_from_list)}")
+    
 
 # Generate random data using Random
 def generate_random_list(npop, nelem, seed=0):
