@@ -17,23 +17,11 @@ import numpy as np
 def main():
     print("========== Array Creation with NumPy ==========")
     create_array_from_list()
-    
-    line_separator()
     create_array_from_tuple()
-    
-    line_separator()
     create_array_from_range()
-    
-    line_separator()
     create_array_of_zeros()
-    
-    line_separator()
     create_array_of_ones()
-    
-    line_separator()
     create_array_with_linspace()
-    
-    line_separator()
     create_array_of_random_integers()
 
 # Creates an array from a list
@@ -81,9 +69,6 @@ def create_array_of_random_integers():
     array_random_integers = np.random.randint(1, 100, size=(2, 3))
     print("2x3 Array of random integers between 1 and 100:\n", array_random_integers)
     
-    
-def line_separator(nchar=72, char="*"):
-    print(char * nchar)
     
 if __name__ == "__main__":
     main()
