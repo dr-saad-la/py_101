@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # =======================================================================
 # Author: Dr. Saad Laouadi
-# Course: Python-201
-# Lesson: numpy_array_reshaping
+# Course: Python-101
+# Lesson: Numpy Array Reshaping
 #
 # Description: This program demonstrates array reshaping techniques
 #              using the NumPy library. Arrays are created using the
@@ -20,6 +20,8 @@ def main():
     demonstrate_reshaping_to_3d()
     demonstrate_flattening_array()
     demonstrate_transposing_array()
+    demonstrate_resizing_array()
+
 
 # Demonstrates reshaping a 1D array to a 2D array
 def demonstrate_1d_to_2d_reshaping():
@@ -48,6 +50,13 @@ def demonstrate_transposing_array():
     print("\n2D Array (3x4):\n", array_2d)
     array_transposed = array_2d.T  # Transposes the array
     print("Transposed Array (4x3):\n", array_transposed)
+    
+# Demonstrates resizing an array
+def demonstrate_resizing_array():
+    array_1d = np.arange(8)  # Creates an array with values from 0 to 7
+    print("\nOriginal 1D Array:", array_1d)
+    array_resized = np.resize(array_1d, (3, 3))  # Resizes to a 3x3 array
+    print("Resized to 3x3 Array:\n", array_resized)
 
 if __name__ == "__main__":
     main()
