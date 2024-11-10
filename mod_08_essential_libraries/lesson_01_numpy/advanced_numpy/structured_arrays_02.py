@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # =======================================================================
 # Author: Dr. Saad Laouadi
-# Course: Python-201
-# Lesson: numpy_structured_arrays
+# Course: Python-101
+# Lesson: Numpy Structured Arrays
 #
 # Description: This program demonstrates how to create and use structured
 #              arrays and record arrays in NumPy. It shows how to define
