@@ -163,6 +163,10 @@ cython_debug/
 
 # ignore local files
 create_file.sh
+.DS_Store
+.jupyter
+
 
 # ignore practice files
 *practice*
+
